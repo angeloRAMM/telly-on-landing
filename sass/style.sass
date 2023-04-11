@@ -1,0 +1,223 @@
+html
+    height: 100%
+
+body
+    height: 100%
+    font-family: 'Montserrat', sans-serif
+    margin: 0
+
+#full-page
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100%
+    background-color: #333
+
+header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 30px 50px
+
+    img
+        width: 150px
+
+.social-icon
+    a
+        color: #ffffff
+        font-size: 25px
+        margin: 0 10px
+
+h1
+    color: #ffffff
+    margin: 0
+    text-align: center
+    font-size: 50px
+
+p
+    color: #ffffff
+    font-size: 18px
+    text-align: center
+    margin: 50px 30px 0
+
+form
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: 60px
+    color: #ffffff
+    font-size: 24px
+
+    input
+        padding: 20px
+        font-size: 18px
+        width: 500px
+        border: none
+        box-sizing: border-box
+
+    button
+        padding: 20px
+        font-size: 18px
+        background-color: #ee1c27
+        border: none
+        color: #ffffff
+        cursor: pointer
+        box-sizing: border-box
+
+        &:hover
+            opacity: 0.8
+            transition: .2s
+
+#id-show-name
+    font-size: 12px
+    font-style: italic
+
+#time-left
+    margin-top: 80px
+    color: #ffffff
+    text-align: center
+    
+    ul
+        display: flex
+        justify-content: center
+        list-style: none
+        margin: 0
+
+    li
+        display: flex
+        flex-direction: column
+        margin: 0 20px
+        background-color: #ee1c27
+        width: 150px
+        padding: 10px
+
+    span
+        &.time-num
+            font-weight: bold
+            font-size: 40px
+        
+        &.time-txt
+            font-size: 20px
+
+footer
+    position: absolute
+    bottom: 15px
+    right: 20px
+
+    img
+        width: 100px
+        float: right
+
+    p
+       font-size: 12px
+       margin: 0 
+
+@media ( max-width: 970px  )
+    header
+        padding: 20px
+
+        img
+            width: 150px
+    
+    #social-icons
+        a
+            font-size: 20px
+    
+    h1
+        font-size: 40px
+
+    p
+        font-size: 16px
+
+    form
+        input
+            font-size: 16px
+            padding: 15px 10px
+
+        button
+            font-size: 16px
+            padding: 15px 10px
+
+    #time-left
+        li
+            width: 120px
+
+        span
+        &.time-num
+            font-size: 30px
+        
+        &.time-txt
+            font-size: 18px
+        
+
+@media ( max-width: 900px  )
+    form
+        input
+            font-size: 14px
+            display: block
+            width: 380px
+            margin-bottom: 5px
+
+        button
+            font-size: 14px
+            display: block
+            width: 380px
+            margin-bottom: 5px
+        
+        #time-left
+        li
+            width: 110px
+
+        span
+            &.time-num
+                font-size: 30px
+        
+            &.time-txt
+                font-size: 18px
+
+
+@media ( max-width: 650px  )
+
+    #time-left
+        li
+            width: 100px
+
+        span
+            &.time-num
+                font-size: 20px
+        
+            &.time-txt
+                font-size: 10px
+    
+
+@media ( max-width: 520px  )
+    header
+        img
+            width: 120px
+
+    #social-icons
+        a
+            font-size: 18px
+
+    h1
+        font-size: 30px 
+
+    form
+        input
+            font-size: 12px
+            width: 320px
+
+        button
+            font-size: 12px
+            width: 320px
+
+    #time-left
+        li
+            width: 90px
+
+        span
+            &.time-num
+                font-size: 20px
+        
+            &.time-txt
+                font-size: 10px
